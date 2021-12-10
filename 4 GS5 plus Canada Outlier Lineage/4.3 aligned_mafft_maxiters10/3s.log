@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Info Mode
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -i aligned_maxiters10_233.afa
+
+Number of sequences          :  233
+Number of distinct sequences :  221
+Number of comparisons        :  1.24869e+07
+
+Original sequence length is 30017 nt.
+Using 30017 positions, from 1 to 30017 inclusive.
+
+Number of polymorphic sites is 1504. Using only polymorphic sites:
+    bi: 1466 - tri: 37 - tetra: 1
+
+Number of polymorphic sites where there are no gaps :  198/1504
+
+Watterson's Theta            :  275.911
+Watterson's Theta (per site) :  0.00919182
+
+Min  pairwise-distance between strains :  0
+Max  pairwise-distance between strains :  99
+Mean pairwise-distance between strains :  48.2164
+Mean pairwise-distance per site (pi)   :  0.0016063
+
+Notes:
+   AA-- and --AA are distinct but the pairwise-distance between them is zero.
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2021/12/07 22:18:41 ║
+                                            ╚══════════════════════════════════╝
+

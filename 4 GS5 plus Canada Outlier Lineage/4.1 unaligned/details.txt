@@ -1,0 +1,9 @@
+
+time nice mafft --6merpair --addfragments global_subsample_omicrons_outliers_233.fa Wuhan-Hu-1.fa > aligned_234.afa
+
+	above command took 20 seconds
+	
+time nice fftnsi --maxiterate 10 global_subsample_omicrons_outliers_233.fa > aligned_maxiters10_233.afa 
+
+	above command took xx minutes
+	

@@ -1,0 +1,127 @@
+
+
+IMPORTANT WARNING: Sequences hCoV-19/Canada/ON-PHL-21-41647/2021|EPI_ISL_7259701|2021-11 and hCoV-19/Canada/ON-PHL-21-41649/2021|EPI_ISL_7259716|2021-11 are exactly identical
+
+
+IMPORTANT WARNING: Sequences hCoV-19/Canada/ON-PHL-21-41647/2021|EPI_ISL_7259701|2021-11 and hCoV-19/Canada/ON-PHL-21-41651/2021|EPI_ISL_7259721|2021-11 are exactly identical
+
+
+IMPORTANT WARNING: Sequences OL622102.1_Peru_2021-08-04 and MZ496616.1_Peru_2021-05-02 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ169917.1_Brazil_2021-03-03 and MZ169912.1_Brazil_2021-02-26 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ169917.1_Brazil_2021-03-03 and MZ169914.1_Brazil_2021-02-26 are exactly identical
+
+
+IMPORTANT WARNING: Sequences OK433463.1_NewZealand_2021-06-07 and OK433615.1_NewZealand_2021-06-02 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ316460.1_USA_2021-05-12 and OK433395.1_NewZealand_2021-05-01 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ316460.1_USA_2021-05-12 and BS001300.1_Japan_2021-06-28 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ316460.1_USA_2021-05-12 and MZ394629.1_Somalia_2021-04-04 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ316460.1_USA_2021-05-12 and OL474049.1_USA_2021-02-02 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ316460.1_USA_2021-05-12 and OK433667.1_NewZealand_2021-02-23 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ316460.1_USA_2021-05-12 and OK433738.1_NewZealand_2021-02-12 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ316460.1_USA_2021-05-12 and OK433276.1_NewZealand_2021-04-24 are exactly identical
+
+
+IMPORTANT WARNING: Sequences LC643038.1_Japan_2021-06 and BS001173.1_Japan_2021-04-26 are exactly identical
+
+
+IMPORTANT WARNING: Sequences OK433538.1_NewZealand_2021-03-09 and OK433708.1_NewZealand_2021-03-22 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ611956.1_Venezuela_2021-01-01 and MZ611957.1_Venezuela_2021-01-21 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MZ342810.1_India_2021-03-15 and OK433313.1_NewZealand_2021-04-21 are exactly identical
+
+
+IMPORTANT WARNING: Sequences MW829333.1_Egypt_2021-02-09 and MW820213.1_Egypt_2021-02-09 are exactly identical
+
+
+IMPORTANT WARNING: Sequences OL601565.1_Nigeria_2021-01-05 and OL601957.1_Mali_2021-07-31 are exactly identical
+
+
+IMPORTANT WARNING: Sequences OK426602.1_NewZealand_2021-01-01 and OU029666.1_UnitedKingdom_2021-03-19 are exactly identical
+
+
+IMPORTANT WARNING: Sequences OK426780.1_NewZealand_2021-01-01 and OK426874.1_NewZealand_2021-01-08 are exactly identical
+
+
+IMPORTANT WARNING: Sequences OK426780.1_NewZealand_2021-01-01 and OK427135.1_NewZealand_2021-01-01 are exactly identical
+
+IMPORTANT WARNING
+Found 22 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file RDP5_segment.afa.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 882 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.07%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 100 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 882
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-SSE3 -T 2 -f a -x 7878 -p 232 -# 100 -m GTRGAMMA -s RDP5_segment.afa -n rdp_segcd ../4.2.4 Trees for BFRs - names fixed/ 
+
+
+
+Time for BS model parameter optimization 1.426409

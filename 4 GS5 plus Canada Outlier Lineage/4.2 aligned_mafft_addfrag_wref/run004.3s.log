@@ -1,0 +1,58 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -f aligned_234.shortnames.afa -id run004
+
+Using 234 sequences as parents.
+Using 234 sequences as children.
+
+Need a p-value of 3.95285e-09 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "run004.3s.rec.csv".
+
+Long recombinants will be recorded to the file "run004.3s.longRec".
+
+Searching for P-value table file...
+
+Loading P-value table from file
+"/home/maciek/PVALUETABLES/PVT_3SEQ_DELTA_300"
+  Table size : 300 * 300 * 300
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      000:06:35       2.167765e-12              308
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              1.26491e+07
+Number of p-values computed exactly :   1.26491e+07
+Number of p-values approximated (HS) :  0
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	308
+Number of distinct recombinant sequences :                     	4
+Number of distinct recombinant sequences at least 100nt long : 	4
+Longest of short recombinant segments :                        	130nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 2.74199e-05
+                                                        p = 2.742e-05
+                                            Uncorrected p = 2.16776e-12
+                                            Bonferroni  p = 2.74203e-05
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "run004.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2021/12/07 23:05:34 ║
+                                            ╚══════════════════════════════════╝
+

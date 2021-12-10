@@ -1,0 +1,336 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=234;
+	taxlabels
+	'BS001173.1_Japan_2021-04-26'
+	'BS001226.1_Japan_2021-05-04'
+	'BS001287.1_Japan_2021-06-16'
+	'BS001300.1_Japan_2021-06-28'
+	'Botswana/R43B64_BHP_121142532/2021|B.1.1.529'[&!color=#00cc00]
+	'Botswana/R43B66_BHP_521004487/2021|B.1.1.529'[&!color=#00cc00]
+	'LC643038.1_Japan_2021-06'
+	'LC643049.1_Japan_2021-06'
+	'LC650047.1_Japan_2021-07'
+	'LC650050.1_Japan_2021-07'
+	'MN908947.3_Wuhan-Hu-1'
+	'MW454127.1_Tunisia_2021-01-06'
+	'MW505297.1_USA_2021-01-07'
+	'MW548236.1_Egypt_2021-01-03'
+	'MW571115.1_Ghana_2021-01-06'[&!color=#00cc00]
+	'MW617626.1_USA_2021-01-30'
+	'MW624725.1_Bangladesh_2021-01-31'
+	'MW689169.1_USA_2021-02-22'
+	'MW704286.1_Bahrain_2021-02-22'
+	'MW728419.1_USA_2021-02-15'
+	'MW731025.1_USA_2021-01-11'
+	'MW766856.1_USA_2021-02-15'
+	'MW773669.1_USA_2021-02-19'
+	'MW820213.1_Egypt_2021-02-09'
+	'MW829333.1_Egypt_2021-02-09'
+	'MW831563.1_Egypt_2021-03-13'
+	'MW831577.1_Egypt_2021-03-13'
+	'MW831600.1_Egypt_2021-03-22'
+	'MW912164.1_USA_2021-03-19'
+	'MW966305.1_USA_2021-03-24'
+	'MW988205.1_Uruguay_2021-03-11'
+	'MZ043014.1_Egypt_2021-04-18'
+	'MZ054863.1_Libya_2021-02-25'
+	'MZ087803.1_Egypt_2021-04-25'
+	'MZ093197.1_Egypt_2021-05-02'
+	'MZ093209.1_Egypt_2021-05-02'
+	'MZ153581.1_USA_2021-04-20'
+	'MZ154513.1_USA_2021-04-18'
+	'MZ158796.1_USA_2021-03-27'
+	'MZ166605.1_USA_2021-04-05'
+	'MZ169910.1_Brazil_2021-02-07'
+	'MZ169911.1_Brazil_2021-02-19'
+	'MZ169912.1_Brazil_2021-02-26'
+	'MZ169914.1_Brazil_2021-02-26'
+	'MZ169917.1_Brazil_2021-03-03'
+	'MZ207860.1_WestBank_2021-04-09'
+	'MZ207862.1_WestBank_2021-04-09'
+	'MZ237798.1_USA_2021-04-30'
+	'MZ252492.1_USA_2021-05-07'
+	'MZ266491.1_HongKong_2021-03-11'
+	'MZ266512.1_HongKong_2021-04-10'
+	'MZ266636.1_Jordan_2021-03'
+	'MZ275287.1_Peru_2021-01-01'
+	'MZ275289.1_Peru_2021-01-30'
+	'MZ275290.1_Peru_2021-01-30'
+	'MZ275297.1_Peru_2021-03-08'
+	'MZ292154.1_India_2021-01-11'
+	'MZ292157.1_India_2021-01-12'
+	'MZ292158.1_India_2021-01-12'
+	'MZ295418.1_USA_2021-05-07'
+	'MZ308213.1_USA_2021-05-12'
+	'MZ316460.1_USA_2021-05-12'
+	'MZ317920.1_India_2021-02-20'
+	'MZ342810.1_India_2021-03-15'
+	'MZ350123.1_Ghana_2021-02-09'[&!color=#00cc00]
+	'MZ359881.1_India_2021-04-23'
+	'MZ361696.1_Cambodia_2021-03-16'
+	'MZ380264.1_Egypt_2021-05-04'
+	'MZ380276.1_Egypt_2021-03-04'
+	'MZ394615.1_Djibouti_2021-03-31'[&!color=#00cc00]
+	'MZ394629.1_Somalia_2021-04-04'[&!color=#00cc00]
+	'MZ397166.1_Brazil_2021-04-27'
+	'MZ397167.1_Brazil_2021-04-27'
+	'MZ401461.1_Bangladesh_2021-05-27'
+	'MZ410106.1_USA_2021-06-02'
+	'MZ451725.1_USA_2021-06-02'
+	'MZ455153.1_USA_2021-05-10'
+	'MZ471486.1_USA_2021-03-26'
+	'MZ477751.1_Brazil_2021-03-02'
+	'MZ477756.1_Brazil_2021-03-06'
+	'MZ496616.1_Peru_2021-05-02'
+	'MZ497532.1_USA_2021-01-14'
+	'MZ500845.1_USA_2021-04-28'
+	'MZ520082.1_Djibouti_2021-02-09'[&!color=#00cc00]
+	'MZ558092.1_India_2021-05-23'
+	'MZ558102.1_India_2021-05-17'
+	'MZ558107.1_India_2021-05-16'
+	'MZ558151.1_India_2021-06-21'
+	'MZ562485.1_Bangladesh_2021-03-16'
+	'MZ573080.1_Bahrain_2021-07-05'
+	'MZ611956.1_Venezuela_2021-01-01'
+	'MZ611957.1_Venezuela_2021-01-21'
+	'MZ611962.1_Venezuela_2021-05-05'
+	'MZ611965.1_Venezuela_2021-05-24'
+	'MZ611967.1_Venezuela_2021-04-17'
+	'MZ611968.1_Venezuela_2021-04-19'
+	'MZ611969.1_Venezuela_2021-04-18'
+	'MZ611971.1_Venezuela_2021-05-10'
+	'MZ611972.1_Venezuela_2021-05-13'
+	'MZ611973.1_Venezuela_2021-02-28'
+	'MZ615551.1_USA_2021-06-28'
+	'MZ636249.1_USA_2021-01-19'
+	'MZ637372.1_USA_2021-07-16'
+	'MZ639585.1_USA_2021-03-29'
+	'MZ676219.1_Bahrain_2021-07-19'
+	'MZ686180.1_USA_2021-07-02'
+	'MZ703508.1_USA_2021-07-25'
+	'MZ709184.1_USA_2021-07-13'
+	'MZ798336.1_USA_2021-08-03'
+	'MZ865935.1_USA_2021-07-18'
+	'MZ879511.1_USA_2021-08-02'
+	'MZ892625.1_Uzbekistan_2021-07-23'
+	'MZ895684.1_SaudiArabia_2021-02-11'
+	'MZ895734.1_SaudiArabia_2021-02-08'
+	'MZ895742.1_SaudiArabia_2021-01-31'
+	'MZ895754.1_SaudiArabia_2021-02-21'
+	'MZ914469.1_Bahrain_2021-08-16'
+	'MZ970760.1_Djibouti_2021-04-23'[&!color=#00cc00]
+	'OB998092.1_UnitedKingdom_2021-03-18'[&!color=#0066ff]
+	'OD926628.1_UnitedKingdom_2021-01-02'[&!color=#0066ff]
+	'OD934193.1_UnitedKingdom_2021-01-08'[&!color=#0066ff]
+	'OD935078.1_UnitedKingdom_2021-01-07'[&!color=#0066ff]
+	'OD944788.1_UnitedKingdom_2021-01-16'[&!color=#0066ff]
+	'OD976750.1_UnitedKingdom_2021-01-24'[&!color=#0066ff]
+	'OD982876.1_UnitedKingdom_2021-02-09'[&!color=#0066ff]
+	'OD985866.1_UnitedKingdom_2021-02-05'[&!color=#0066ff]
+	'OD995958.1_UnitedKingdom_2021-02-16'[&!color=#0066ff]
+	'OK001898.1_Egypt_2021-06-10'
+	'OK001900.1_Egypt_2021-06-10'
+	'OK001901.1_Egypt_2021-06-10'
+	'OK001922.1_Egypt_2021-05-26'
+	'OK001927.1_Egypt_2021-06-08'
+	'OK001930.1_Egypt_2021-06-03'
+	'OK001943.1_Egypt_2021-05-25'
+	'OK005156.1_USA_2021-08-03'
+	'OK018440.1_USA_2021-08-09'
+	'OK021445.1_USA_2021-08-20'
+	'OK077992.1_India_2021-08-27'
+	'OK083545.1_India_2021-08-29'
+	'OK085482.1_India_2021-08-22'
+	'OK091006.1_Japan_2021-08-24'
+	'OK104636.1_Egypt_2021-08-31'
+	'OK104638.1_Egypt_2021-08-31'
+	'OK104639.1_Egypt_2021-08-31'
+	'OK104647.1_Egypt_2021-08-30'
+	'OK104655.1_Egypt_2021-08-30'
+	'OK232652.1_USA_2021-06-05'
+	'OK252994.1_Peru_2021-06-25'
+	'OK426602.1_NewZealand_2021-01-01'
+	'OK426780.1_NewZealand_2021-01-01'
+	'OK426874.1_NewZealand_2021-01-08'
+	'OK427135.1_NewZealand_2021-01-01'
+	'OK433276.1_NewZealand_2021-04-24'
+	'OK433313.1_NewZealand_2021-04-21'
+	'OK433372.1_NewZealand_2021-03-13'
+	'OK433390.1_NewZealand_2021-06-14'
+	'OK433395.1_NewZealand_2021-05-01'
+	'OK433417.1_NewZealand_2021-06-11'
+	'OK433441.1_NewZealand_2021-04-11'
+	'OK433447.1_NewZealand_2021-05-23'
+	'OK433454.1_NewZealand_2021-02-21'
+	'OK433463.1_NewZealand_2021-06-07'
+	'OK433514.1_NewZealand_2021-03-30'
+	'OK433535.1_NewZealand_2021-05-03'
+	'OK433538.1_NewZealand_2021-03-09'
+	'OK433543.1_NewZealand_2021-04-22'
+	'OK433555.1_NewZealand_2021-01-28'
+	'OK433556.1_NewZealand_2021-04-30'
+	'OK433557.1_NewZealand_2021-03-04'
+	'OK433577.1_NewZealand_2021-02-11'
+	'OK433597.1_NewZealand_2021-05-01'
+	'OK433609.1_NewZealand_2021-05-13'
+	'OK433615.1_NewZealand_2021-06-02'
+	'OK433644.1_NewZealand_2021-06-05'
+	'OK433667.1_NewZealand_2021-02-23'
+	'OK433698.1_NewZealand_2021-02-22'
+	'OK433708.1_NewZealand_2021-03-22'
+	'OK433738.1_NewZealand_2021-02-12'
+	'OK511466.1_USA_2021-06-03'
+	'OK594576.1_Peru_2021-06-21'
+	'OL474049.1_USA_2021-02-02'
+	'OL601565.1_Nigeria_2021-01-05'[&!color=#00cc00]
+	'OL601582.1_Nigeria_2021-01-07'[&!color=#00cc00]
+	'OL601946.1_Mali_2021-04-04'[&!color=#00cc00]
+	'OL601957.1_Mali_2021-07-31'[&!color=#00cc00]
+	'OL601959.1_Mali_2021-07-29'[&!color=#00cc00]
+	'OL601960.1_Mali_2021-07-31'[&!color=#00cc00]
+	'OL601961.1_Mali_2021-07-30'[&!color=#00cc00]
+	'OL622099.1_Peru_2021-08-04'
+	'OL622102.1_Peru_2021-08-04'
+	'OL623674.1_Peru_2021-08-04'
+	'OL623733.1_Peru_2021-08-04'
+	'OL623819.1_Peru_2021-08-04'
+	'OU012236.1_UnitedKingdom_2021-02-12'[&!color=#0066ff]
+	'OU029666.1_UnitedKingdom_2021-03-19'[&!color=#0066ff]
+	'OU029809.1_UnitedKingdom_2021-03-08'[&!color=#0066ff]
+	'OU030203.1_UnitedKingdom_2021-03-31'[&!color=#0066ff]
+	'OU031557.1_UnitedKingdom_2021-04-28'[&!color=#0066ff]
+	'OU384527.1_UnitedKingdom_2021-04-29'[&!color=#0066ff]
+	'OU385292.1_UnitedKingdom_2021-03-22'[&!color=#0066ff]
+	'OU385505.1_UnitedKingdom_2021-04-19'[&!color=#0066ff]
+	'OU385605.1_UnitedKingdom_2021-04-13'[&!color=#0066ff]
+	'OU388264.1_UnitedKingdom_2021-06-08'[&!color=#0066ff]
+	'OU391075.1_UnitedKingdom_2021-05-24'[&!color=#0066ff]
+	'OU392489.1_UnitedKingdom_2021-05-25'[&!color=#0066ff]
+	'OU395596.1_UnitedKingdom_2021-06-08'[&!color=#0066ff]
+	'OU421351.1_UnitedKingdom_2021-06-23'[&!color=#0066ff]
+	'OU422783.1_UnitedKingdom_2021-05-30'[&!color=#0066ff]
+	'OU447642.1_UnitedKingdom_2021-07-04'[&!color=#0066ff]
+	'OU491433.1_UnitedKingdom_2021-07-16'[&!color=#0066ff]
+	'OU593415.1_UnitedKingdom_2021-08-01'[&!color=#0066ff]
+	'OU594629.1_UnitedKingdom_2021-07-26'[&!color=#0066ff]
+	'OU661199.1_UnitedKingdom_2021-08-04'[&!color=#0066ff]
+	'OU661754.1_UnitedKingdom_2021-08-02'[&!color=#0066ff]
+	'OU706768.1_Slovakia_2021-07-23'[&!color=#0066ff]
+	'OU797700.1_UnitedKingdom_2021-07-13'[&!color=#0066ff]
+	'OU800084.1_UnitedKingdom_2021-08-27'[&!color=#0066ff]
+	'OU802619.1_UnitedKingdom_2021-08-31'[&!color=#0066ff]
+	'OU804959.1_UnitedKingdom_2021-02-21'[&!color=#0066ff]
+	'OU806501.1_UnitedKingdom_2021-05-28'[&!color=#0066ff]
+	'OU810658.1_UnitedKingdom_2021-06-03'[&!color=#0066ff]
+	'OU818429.1_Slovakia_2021-04-30'[&!color=#0066ff]
+	'OU818622.1_Slovakia_2021-05-24'[&!color=#0066ff]
+	'OU819748.1_Slovakia_2021-06-09'[&!color=#0066ff]
+	'South_Africa/CERI-KRISP-K032209/2021|B.1.1.529'[&!color=#00cc00]
+	'South_Africa/CERI-KRISP-K032254/2021|B.1.1.529'[&!color=#00cc00]
+	'South_Africa/CERI-KRISP-K032359/2021|B.1.1.529'[&!color=#00cc00]
+	'hCoV-19/Australia/QLD2568/2021|EPI_ISL_7190366|2021-12-01'
+	'hCoV-19/Canada/ON-PHL-21-41647/2021|EPI_ISL_7259701|2021-11'
+	'hCoV-19/Canada/ON-PHL-21-41648/2021|EPI_ISL_7259710|2021-11'
+	'hCoV-19/Canada/ON-PHL-21-41649/2021|EPI_ISL_7259716|2021-11'
+	'hCoV-19/Canada/ON-PHL-21-41650/2021|EPI_ISL_7259544|2021-11'
+	'hCoV-19/Canada/ON-PHL-21-41651/2021|EPI_ISL_7259721|2021-11'
+	'hCoV-19/South_Africa/CERI-KRISP-K032307/2021|EPI_ISL_6795834|2021-11-17'[&!color=#00cc00]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('MZ087803.1_Egypt_2021-04-25':2.71E-4,'MZ093197.1_Egypt_2021-05-02':2.71E-4)[&bootstrap=100]:4.77E-4,(((((('MZ611973.1_Venezuela_2021-02-28':6.13E-4,((((('OL601957.1_Mali_2021-07-31':3.4E-5,'OL601582.1_Nigeria_2021-01-07':3.4E-5)[&bootstrap=5]:1.0E-6,(('OL601961.1_Mali_2021-07-30':1.37E-4,'OL601960.1_Mali_2021-07-31':1.36E-4)[&bootstrap=98]:1.02E-4,'OL601946.1_Mali_2021-04-04':1.71E-4)[&bootstrap=18]:1.0E-6)[&bootstrap=3]:1.0E-6,'OL601565.1_Nigeria_2021-01-05':6.8E-5)[&bootstrap=6]:1.0E-6,('OL601959.1_Mali_2021-07-29':1.02E-4,'MZ054863.1_Libya_2021-02-25':2.04E-4)[&bootstrap=2]:1.0E-6)[&bootstrap=57]:1.0E-6,'MZ153581.1_USA_2021-04-20':3.41E-4)[&bootstrap=100]:6.49E-4)[&bootstrap=45]:6.7E-5,(('MZ558102.1_India_2021-05-17':2.38E-4,'MZ359881.1_India_2021-04-23':1.44E-4)[&bootstrap=100]:4.26E-4,(('OK005156.1_USA_2021-08-03':2.38E-4,('MZ879511.1_USA_2021-08-02':6.8E-5,'OK018440.1_USA_2021-08-09':6.8E-5)[&bootstrap=100]:3.4E-5)[&bootstrap=100]:3.83E-4,((((('OU797700.1_UnitedKingdom_2021-07-13':2.85E-4,'OK104647.1_Egypt_2021-08-30':4.74E-4)[&bootstrap=13]:1.0E-6,('OU800084.1_UnitedKingdom_2021-08-27':7.66E-4,'OK104636.1_Egypt_2021-08-31':5.76E-4)[&bootstrap=16]:1.0E-6)[&bootstrap=0]:3.4E-5,(('MZ558151.1_India_2021-06-21':1.7E-4,(('OU802619.1_UnitedKingdom_2021-08-31':2.04E-4,((('OU491433.1_UnitedKingdom_2021-07-16':9.7E-5,'OU388264.1_UnitedKingdom_2021-06-08':7.2E-5)[&bootstrap=55]:4.7E-5,('MZ703508.1_USA_2021-07-25':2.72E-4,'MZ637372.1_USA_2021-07-16':1.09E-4)[&bootstrap=94]:2.18E-4)[&bootstrap=1]:1.0E-6,('LC643049.1_Japan_2021-06':3.05E-4,((('OU447642.1_UnitedKingdom_2021-07-04':6.9E-5,((((('OU661754.1_UnitedKingdom_2021-08-02':1.73E-4,'OU594629.1_UnitedKingdom_2021-07-26':2.07E-4)[&bootstrap=35]:1.0E-6,'OU395596.1_UnitedKingdom_2021-06-08':1.0E-6)[&bootstrap=15]:1.0E-6,'OU421351.1_UnitedKingdom_2021-06-23':1.78E-4)[&bootstrap=5]:1.0E-6,'OU392489.1_UnitedKingdom_2021-05-25':3.5E-5)[&bootstrap=9]:1.0E-6,'OU593415.1_UnitedKingdom_2021-08-01':7.0E-5)[&bootstrap=46]:3.5E-5)[&bootstrap=59]:3.9E-5,'OU806501.1_UnitedKingdom_2021-05-28':1.7E-4)[&bootstrap=18]:1.0E-6,('OK091006.1_Japan_2021-08-24':3.4E-5,('LC650050.1_Japan_2021-07':1.02E-4,'LC650047.1_Japan_2021-07':1.0E-6)[&bootstrap=98]:6.8E-5)[&bootstrap=81]:6.8E-5)[&bootstrap=4]:1.0E-6)[&bootstrap=15]:3.4E-5)[&bootstrap=5]:2.0E-6)[&bootstrap=6]:1.0E-6,('OU661199.1_UnitedKingdom_2021-08-04':2.72E-4,'MZ892625.1_Uzbekistan_2021-07-23':1.69E-4)[&bootstrap=21]:1.0E-6)[&bootstrap=1]:4.4E-5)[&bootstrap=1]:3.4E-5,'OK104638.1_Egypt_2021-08-31':2.37E-4)[&bootstrap=2]:1.0E-6)[&bootstrap=49]:3.9E-5,('OK104639.1_Egypt_2021-08-31':2.76E-4,'OK104655.1_Egypt_2021-08-30':2.66E-4)[&bootstrap=69]:1.35E-4)[&bootstrap=100]:3.53E-4,(('OU706768.1_Slovakia_2021-07-23':2.04E-4,'OU810658.1_UnitedKingdom_2021-06-03':1.7E-4)[&bootstrap=99]:1.7E-4,(('OK077992.1_India_2021-08-27':3.1E-4,('MZ558107.1_India_2021-05-16':1.8E-4,'MZ558092.1_India_2021-05-23':1.02E-4)[&bootstrap=97]:4.1E-5)[&bootstrap=95]:1.46E-4,('OK083545.1_India_2021-08-29':1.69E-4,'OK085482.1_India_2021-08-22':1.02E-4)[&bootstrap=100]:9.3E-5)[&bootstrap=91]:1.44E-4)[&bootstrap=77]:8.2E-5)[&bootstrap=60]:7.3E-5)[&bootstrap=94]:2.15E-4)[&bootstrap=100]:2.86E-4)[&bootstrap=9]:1.0E-6,(((('MZ895734.1_SaudiArabia_2021-02-08':1.35E-4,('MZ895684.1_SaudiArabia_2021-02-11':2.03E-4,('MZ895754.1_SaudiArabia_2021-02-21':1.01E-4,'MZ895742.1_SaudiArabia_2021-01-31':1.35E-4)[&bootstrap=30]:1.0E-6)[&bootstrap=100]:1.35E-4)[&bootstrap=99]:2.37E-4,(('MZ292158.1_India_2021-01-12':1.0E-6,'MW728419.1_USA_2021-02-15':6.13E-4)[&bootstrap=10]:1.0E-6,(('OK001930.1_Egypt_2021-06-03':5.42E-4,(('MZ496616.1_Peru_2021-05-02':1.02E-4,(('OL622102.1_Peru_2021-08-04':1.02E-4,'OL623674.1_Peru_2021-08-04':1.36E-4)[&bootstrap=25]:1.0E-6,((('MZ275290.1_Peru_2021-01-30':3.4E-5,((('OL622099.1_Peru_2021-08-04':1.0E-6,'OL623819.1_Peru_2021-08-04':3.4E-5)[&bootstrap=93]:1.36E-4,'OL623733.1_Peru_2021-08-04':3.4E-5)[&bootstrap=61]:1.0E-6,'MZ275287.1_Peru_2021-01-01':3.4E-5)[&bootstrap=42]:1.0E-6)[&bootstrap=27]:1.0E-6,'MZ275297.1_Peru_2021-03-08':1.71E-4)[&bootstrap=50]:3.6E-5,'MZ275289.1_Peru_2021-01-30':1.0E-6)[&bootstrap=59]:3.6E-5)[&bootstrap=48]:3.6E-5)[&bootstrap=100]:5.72E-4,('MW831577.1_Egypt_2021-03-13':1.7E-4,((('MW820213.1_Egypt_2021-02-09':1.0E-6,'MW829333.1_Egypt_2021-02-09':1.0E-6)[&bootstrap=100]:3.73E-4,'MW548236.1_Egypt_2021-01-03':1.36E-4)[&bootstrap=71]:1.0E-6,((('OK001922.1_Egypt_2021-05-26':1.01E-4,'OK001900.1_Egypt_2021-06-10':1.0E-6)[&bootstrap=38]:6.9E-5,(('MZ266636.1_Jordan_2021-03':3.0E-4,(('OK433417.1_NewZealand_2021-06-11':2.04E-4,'MZ676219.1_Bahrain_2021-07-19':1.7E-4)[&bootstrap=93]:3.4E-5,('MZ380264.1_Egypt_2021-05-04':3.69E-4,(('OK001901.1_Egypt_2021-06-10':7.4E-5,('OK001927.1_Egypt_2021-06-08':2.44E-4,'OK001898.1_Egypt_2021-06-10':2.98E-4)[&bootstrap=1]:3.4E-5)[&bootstrap=35]:1.59E-4,'MZ043014.1_Egypt_2021-04-18':3.43E-4)[&bootstrap=23]:6.8E-5)[&bootstrap=23]:3.8E-5)[&bootstrap=17]:3.9E-5)[&bootstrap=85]:2.03E-4,('OK433698.1_NewZealand_2021-02-22':1.7E-4,'MZ380276.1_Egypt_2021-03-04':4.74E-4)[&bootstrap=96]:1.4E-4)[&bootstrap=41]:1.63E-4)[&bootstrap=46]:1.36E-4,'MW831563.1_Egypt_2021-03-13':5.44E-4)[&bootstrap=28]:3.4E-5)[&bootstrap=33]:6.8E-5)[&bootstrap=49]:3.4E-5)[&bootstrap=65]:3.4E-5)[&bootstrap=71]:1.01E-4,('OK433454.1_NewZealand_2021-02-21':4.76E-4,('OK433447.1_NewZealand_2021-05-23':8.19E-4,(((('MZ169910.1_Brazil_2021-02-07':6.8E-5,(('MZ397166.1_Brazil_2021-04-27':3.39E-4,((('OK594576.1_Peru_2021-06-21':1.02E-4,('OK252994.1_Peru_2021-06-25':1.37E-4,'OK021445.1_USA_2021-08-20':1.7E-4)[&bootstrap=97]:3.4E-5)[&bootstrap=100]:1.7E-4,'MZ169911.1_Brazil_2021-02-19':4.74E-4)[&bootstrap=30]:1.0E-6,'MZ397167.1_Brazil_2021-04-27':2.03E-4)[&bootstrap=14]:1.0E-6)[&bootstrap=16]:1.0E-6,('MZ611969.1_Venezuela_2021-04-18':3.74E-4,((('MZ611957.1_Venezuela_2021-01-21':1.0E-6,'MZ611956.1_Venezuela_2021-01-01':1.0E-6)[&bootstrap=89]:6.8E-5,('OK433609.1_NewZealand_2021-05-13':2.72E-4,'MZ611967.1_Venezuela_2021-04-17':1.7E-4)[&bootstrap=22]:1.0E-6)[&bootstrap=73]:6.8E-5,('MZ611972.1_Venezuela_2021-05-13':2.38E-4,(('MZ611965.1_Venezuela_2021-05-24':6.8E-5,('MZ611971.1_Venezuela_2021-05-10':1.7E-4,'MZ611962.1_Venezuela_2021-05-05':3.4E-5)[&bootstrap=79]:3.4E-5)[&bootstrap=76]:3.4E-5,'MZ611968.1_Venezuela_2021-04-19':2.04E-4)[&bootstrap=83]:6.8E-5)[&bootstrap=11]:1.0E-6)[&bootstrap=10]:1.0E-6)[&bootstrap=58]:3.4E-5)[&bootstrap=39]:1.0E-6)[&bootstrap=32]:1.0E-6,'MZ477756.1_Brazil_2021-03-06':1.02E-4)[&bootstrap=100]:2.12E-4,'MZ477751.1_Brazil_2021-03-02':2.38E-4)[&bootstrap=100]:6.02E-4,(('MW988205.1_Uruguay_2021-03-11':3.73E-4,'OK433557.1_NewZealand_2021-03-04':2.38E-4)[&bootstrap=100]:3.4E-5,('MZ169914.1_Brazil_2021-02-26':1.0E-6,('MZ169917.1_Brazil_2021-03-03':1.0E-6,'MZ169912.1_Brazil_2021-02-26':1.0E-6)[&bootstrap=15]:1.0E-6)[&bootstrap=100]:2.37E-4)[&bootstrap=100]:3.05E-4)[&bootstrap=61]:3.4E-5)[&bootstrap=32]:3.4E-5)[&bootstrap=14]:1.0E-6)[&bootstrap=1]:1.0E-6)[&bootstrap=0]:1.0E-6)[&bootstrap=0]:1.0E-6,'MW571115.1_Ghana_2021-01-06':5.1E-4)[&bootstrap=0]:1.0E-6,(('MZ292157.1_India_2021-01-12':2.38E-4,(((('Botswana/R43B66_BHP_521004487/2021|B.1.1.529':6.94E-4,('South_Africa/CERI-KRISP-K032209/2021|B.1.1.529':1.08E-4,(('South_Africa/CERI-KRISP-K032359/2021|B.1.1.529':7.1E-5,'Botswana/R43B64_BHP_121142532/2021|B.1.1.529':2.61E-4)[&bootstrap=65]:8.2E-5,'South_Africa/CERI-KRISP-K032254/2021|B.1.1.529':1.16E-4)[&bootstrap=8]:1.0E-6)[&bootstrap=56]:8.1E-5)[&bootstrap=98]:3.92E-4,('hCoV-19/South_Africa/CERI-KRISP-K032307/2021|EPI_ISL_6795834|2021-11-17':1.0E-6,('hCoV-19/Australia/QLD2568/2021|EPI_ISL_7190366|2021-12-01':1.0E-6,('hCoV-19/Canada/ON-PHL-21-41650/2021|EPI_ISL_7259544|2021-11':1.0E-6,('hCoV-19/Canada/ON-PHL-21-41651/2021|EPI_ISL_7259721|2021-11':1.0E-6,(('hCoV-19/Canada/ON-PHL-21-41649/2021|EPI_ISL_7259716|2021-11':3.5E-5,'hCoV-19/Canada/ON-PHL-21-41648/2021|EPI_ISL_7259710|2021-11':1.0E-6)[&bootstrap=10]:1.0E-6,'hCoV-19/Canada/ON-PHL-21-41647/2021|EPI_ISL_7259701|2021-11':1.0E-6)[&bootstrap=12]:1.0E-6)[&bootstrap=68]:1.0E-6)[&bootstrap=72]:1.0E-6)[&bootstrap=71]:6.8E-5)[&bootstrap=100]:9.19E-4)[&bootstrap=100]:0.001,('MZ166605.1_USA_2021-04-05':2.72E-4,('OK433555.1_NewZealand_2021-01-28':2.04E-4,'MZ471486.1_USA_2021-03-26':1.02E-4)[&bootstrap=100]:1.02E-4)[&bootstrap=100]:3.4E-4)[&bootstrap=54]:6.7E-5,('OK511466.1_USA_2021-06-03':3.74E-4,(((((((('OK433535.1_NewZealand_2021-05-03':1.36E-4,'MZ451725.1_USA_2021-06-02':2.04E-4)[&bootstrap=62]:3.4E-5,('MW704286.1_Bahrain_2021-02-22':1.36E-4,('MZ361696.1_Cambodia_2021-03-16':2.03E-4,('OK433390.1_NewZealand_2021-06-14':6.8E-5,(('OK433463.1_NewZealand_2021-06-07':1.0E-6,'OK433615.1_NewZealand_2021-06-02':1.0E-6)[&bootstrap=55]:1.0E-6,'OK433644.1_NewZealand_2021-06-05':3.4E-5)[&bootstrap=46]:1.0E-6)[&bootstrap=100]:3.06E-4)[&bootstrap=37]:1.0E-6)[&bootstrap=37]:3.4E-5)[&bootstrap=8]:1.0E-6,(('OK433543.1_NewZealand_2021-04-22':1.02E-4,'OU029666.1_UnitedKingdom_2021-03-19':1.03E-4)[&bootstrap=63]:1.0E-6,('OD995958.1_UnitedKingdom_2021-02-16':1.36E-4,'OU384527.1_UnitedKingdom_2021-04-29':2.38E-4)[&bootstrap=73]:3.4E-5)[&bootstrap=16]:1.0E-6)[&bootstrap=1]:1.0E-6,('OK433313.1_NewZealand_2021-04-21':3.4E-5,'MZ342810.1_India_2021-03-15':3.4E-5)[&bootstrap=85]:6.8E-5)[&bootstrap=19]:1.0E-6,('OU818429.1_Slovakia_2021-04-30':1.69E-4,('OU819748.1_Slovakia_2021-06-09':2.06E-4,'OU818622.1_Slovakia_2021-05-24':1.02E-4)[&bootstrap=34]:1.0E-6)[&bootstrap=84]:6.8E-5)[&bootstrap=38]:3.4E-5,(('OU385505.1_UnitedKingdom_2021-04-19':1.02E-4,'OD944788.1_UnitedKingdom_2021-01-16':2.04E-4)[&bootstrap=94]:1.36E-4,'OK426602.1_NewZealand_2021-01-01':1.02E-4)[&bootstrap=14]:1.0E-6)[&bootstrap=0]:1.0E-6,(((('MZ350123.1_Ghana_2021-02-09':3.4E-5,'MW624725.1_Bangladesh_2021-01-31':1.02E-4)[&bootstrap=83]:6.8E-5,('MZ317920.1_India_2021-02-20':1.36E-4,('OK232652.1_USA_2021-06-05':3.41E-4,('MZ410106.1_USA_2021-06-02':3.06E-4,'MZ500845.1_USA_2021-04-28':1.02E-4)[&bootstrap=19]:1.0E-6)[&bootstrap=80]:6.8E-5)[&bootstrap=3]:1.0E-6)[&bootstrap=2]:1.0E-6,('OK433708.1_NewZealand_2021-03-22':1.0E-6,'OK433538.1_NewZealand_2021-03-09':1.0E-6)[&bootstrap=100]:2.04E-4)[&bootstrap=82]:6.8E-5,'OU030203.1_UnitedKingdom_2021-03-31':1.02E-4)[&bootstrap=5]:1.0E-6)[&bootstrap=26]:3.4E-5,(('OK433441.1_NewZealand_2021-04-11':3.75E-4,'OU391075.1_UnitedKingdom_2021-05-24':2.73E-4)[&bootstrap=58]:3.3E-5,(('OK433556.1_NewZealand_2021-04-30':1.36E-4,(('BS001173.1_Japan_2021-04-26':6.8E-5,('LC643038.1_Japan_2021-06':3.4E-5,'BS001287.1_Japan_2021-06-16':2.04E-4)[&bootstrap=31]:1.0E-6)[&bootstrap=87]:6.8E-5,'BS001300.1_Japan_2021-06-28':3.4E-5)[&bootstrap=18]:1.0E-6)[&bootstrap=65]:3.4E-5,((('MZ573080.1_Bahrain_2021-07-05':1.36E-4,((('OD926628.1_UnitedKingdom_2021-01-02':2.38E-4,('OK426874.1_NewZealand_2021-01-08':1.0E-6,('OK427135.1_NewZealand_2021-01-01':1.0E-6,'OK426780.1_NewZealand_2021-01-01':1.0E-6)[&bootstrap=27]:1.0E-6)[&bootstrap=100]:1.36E-4)[&bootstrap=72]:3.4E-5,('MZ970760.1_Djibouti_2021-04-23':1.36E-4,'MZ914469.1_Bahrain_2021-08-16':5.45E-4)[&bootstrap=64]:3.4E-5)[&bootstrap=3]:1.0E-6,('OD935078.1_UnitedKingdom_2021-01-07':3.4E-5,'OU031557.1_UnitedKingdom_2021-04-28':3.41E-4)[&bootstrap=9]:1.0E-6)[&bootstrap=34]:1.0E-6)[&bootstrap=46]:3.4E-5,((('OU012236.1_UnitedKingdom_2021-02-12':1.02E-4,('MZ158796.1_USA_2021-03-27':2.37E-4,'MZ237798.1_USA_2021-04-30':2.04E-4)[&bootstrap=12]:1.0E-6)[&bootstrap=79]:6.8E-5,(((('OD982876.1_UnitedKingdom_2021-02-09':1.02E-4,('MZ316460.1_USA_2021-05-12':1.7E-4,('OK433667.1_NewZealand_2021-02-23':1.0E-6,'OK433738.1_NewZealand_2021-02-12':1.0E-6)[&bootstrap=80]:3.4E-5)[&bootstrap=7]:1.0E-6)[&bootstrap=54]:3.4E-5,('MZ615551.1_USA_2021-06-28':3.41E-4,(('OD976750.1_UnitedKingdom_2021-01-24':1.36E-4,'OK433276.1_NewZealand_2021-04-24':2.38E-4)[&bootstrap=46]:3.4E-5,('OU029809.1_UnitedKingdom_2021-03-08':2.63E-4,('OU422783.1_UnitedKingdom_2021-05-30':4.8E-5,'MZ709184.1_USA_2021-07-13':5.18E-4)[&bootstrap=85]:9.3E-5)[&bootstrap=38]:1.0E-6)[&bootstrap=1]:1.0E-6)[&bootstrap=3]:1.0E-6)[&bootstrap=1]:1.0E-6,'OK433372.1_NewZealand_2021-03-13':2.04E-4)[&bootstrap=2]:1.0E-6,((('MZ295418.1_USA_2021-05-07':1.37E-4,('MW773669.1_USA_2021-02-19':2.04E-4,'MZ252492.1_USA_2021-05-07':1.02E-4)[&bootstrap=41]:1.0E-6)[&bootstrap=94]:1.02E-4,'OK433395.1_NewZealand_2021-05-01':1.36E-4)[&bootstrap=1]:1.0E-6,(('OB998092.1_UnitedKingdom_2021-03-18':3.62E-4,'OD934193.1_UnitedKingdom_2021-01-08':1.63E-4)[&bootstrap=59]:4.1E-5,'MZ455153.1_USA_2021-05-10':2.04E-4)[&bootstrap=14]:1.0E-6)[&bootstrap=47]:3.4E-5)[&bootstrap=20]:1.0E-6)[&bootstrap=36]:3.4E-5,((('OU385292.1_UnitedKingdom_2021-03-22':1.46E-4,('OU804959.1_UnitedKingdom_2021-02-21':2.72E-4,'MZ394629.1_Somalia_2021-04-04':2.72E-4)[&bootstrap=21]:1.0E-6)[&bootstrap=49]:3.4E-5,((('MZ308213.1_USA_2021-05-12':3.4E-4,(('MZ207862.1_WestBank_2021-04-09':2.72E-4,'MZ207860.1_WestBank_2021-04-09':4.75E-4)[&bootstrap=80]:9.4E-5,'OK433514.1_NewZealand_2021-03-30':2.04E-4)[&bootstrap=2]:1.0E-6)[&bootstrap=3]:1.0E-6,'MW912164.1_USA_2021-03-19':1.71E-4)[&bootstrap=0]:1.0E-6,'BS001226.1_Japan_2021-05-04':1.36E-4)[&bootstrap=0]:1.0E-6)[&bootstrap=0]:1.0E-6,'OD985866.1_UnitedKingdom_2021-02-05':1.7E-4)[&bootstrap=0]:1.0E-6)[&bootstrap=0]:1.0E-6)[&bootstrap=0]:1.0E-6,('OU385605.1_UnitedKingdom_2021-04-13':1.12E-4,'OL474049.1_USA_2021-02-02':3.4E-5)[&bootstrap=62]:3.4E-5)[&bootstrap=0]:1.0E-6)[&bootstrap=0]:1.0E-6)[&bootstrap=14]:1.0E-6)[&bootstrap=95]:2.37E-4)[&bootstrap=100]:4.41E-4)[&bootstrap=31]:1.0E-6)[&bootstrap=29]:3.4E-5,'MW505297.1_USA_2021-01-07':4.08E-4)[&bootstrap=7]:1.0E-6)[&bootstrap=68]:1.01E-4)[&bootstrap=6]:1.0E-6,(((('MZ865935.1_USA_2021-07-18':8.56E-4,('MZ154513.1_USA_2021-04-18':1.7E-4,'MZ639585.1_USA_2021-03-29':3.75E-4)[&bootstrap=100]:2.39E-4)[&bootstrap=76]:1.35E-4,(('MZ401461.1_Bangladesh_2021-05-27':3.4E-5,('MZ562485.1_Bangladesh_2021-03-16':2.38E-4,'MZ394615.1_Djibouti_2021-03-31':3.41E-4)[&bootstrap=100]:2.38E-4)[&bootstrap=99]:2.38E-4,'MZ636249.1_USA_2021-01-19':5.09E-4)[&bootstrap=17]:3.3E-5)[&bootstrap=15]:1.0E-6,((((('MZ497532.1_USA_2021-01-14':3.39E-4,'MW766856.1_USA_2021-02-15':4.06E-4)[&bootstrap=36]:1.0E-6,'OK433577.1_NewZealand_2021-02-11':3.41E-4)[&bootstrap=57]:1.0E-6,'MW731025.1_USA_2021-01-11':3.05E-4)[&bootstrap=23]:1.0E-6,('MZ520082.1_Djibouti_2021-02-09':3.74E-4,'MW966305.1_USA_2021-03-24':4.07E-4)[&bootstrap=90]:6.7E-5)[&bootstrap=99]:1.69E-4,('MW689169.1_USA_2021-02-22':4.45E-4,'MW617626.1_USA_2021-01-30':3.73E-4)[&bootstrap=81]:1.0E-6)[&bootstrap=75]:6.8E-5)[&bootstrap=38]:3.4E-5,(('MZ093209.1_Egypt_2021-05-02':4.4E-4,(('MZ266512.1_HongKong_2021-04-10':5.47E-4,'MZ292154.1_India_2021-01-11':3.05E-4)[&bootstrap=64]:6.7E-5,'MW454127.1_Tunisia_2021-01-06':7.11E-4)[&bootstrap=35]:3.5E-5)[&bootstrap=15]:1.0E-6,(('OK433597.1_NewZealand_2021-05-01':3.07E-4,'MZ266491.1_HongKong_2021-03-11':1.36E-4)[&bootstrap=100]:4.0E-4,'MZ798336.1_USA_2021-08-03':9.86E-4)[&bootstrap=19]:4.6E-5)[&bootstrap=22]:3.4E-5)[&bootstrap=12]:3.4E-5)[&bootstrap=49]:3.4E-5,'MW831600.1_Egypt_2021-03-22':1.0E-6)[&bootstrap=83]:1.01E-4,('MN908947.3_Wuhan-Hu-1':1.0E-6,'OK001943.1_Egypt_2021-05-25':3.05E-4)[&bootstrap=72]:1.0E-6)[&bootstrap=85]:1.34E-4,'MZ686180.1_USA_2021-07-02':0.00116);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bootstrap";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=301;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
