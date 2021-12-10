@@ -1,0 +1,61 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -f global_780.afa omicron_5.afa -id global001
+
+WARNING: Auto-enable -# option; actual number of comparisons will be used in
+         corrections.
+
+Using 780 sequences as parents.
+Using 5 sequences as children.
+
+Need a p-value of 1.64577e-08 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "global001.3s.rec.csv".
+
+Long recombinants will be recorded to the file "global001.3s.longRec".
+
+Searching for P-value table file...
+
+Loading P-value table from file
+"/home/maciek/PVALUETABLES/PVT_3SEQ_DELTA_300"
+  Table size : 300 * 300 * 300
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      000:05:02       1.520103e-05                0
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              3.0381e+06
+Number of p-values computed exactly :   3.0381e+06
+Number of p-values approximated (HS) :  0
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	0
+Number of distinct recombinant sequences :                     	0
+Number of distinct recombinant sequences at least 100nt long : 	0
+Longest of short recombinant segments :                        	0nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 1
+                                                        p = 1.000e+00
+                                            Uncorrected p = 1.5201e-05
+                                            Bonferroni  p = 46.1822
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "global001.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2021/12/01 22:36:00 ║
+                                            ╚══════════════════════════════════╝
+

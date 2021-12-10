@@ -1,0 +1,96 @@
+MAFFT command-line trials
+
+#1. time nice mafft --auto global_subsample_and529s_785.fa > global_subsample_and529s_785.mafft_auto.afa
+-------------------
+
+This took about 5 minutes and produced an alignment of 29960
+
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Info Mode
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -i global_subsample_and529s_785.mafft_auto.afa
+
+Number of sequences          :  785
+Number of distinct sequences :  728
+Number of comparisons        :  4.8189e+08
+
+Original sequence length is 29960 nt.
+Using 29960 positions, from 1 to 29960 inclusive.
+
+Number of polymorphic sites is 3054. Using only polymorphic sites:
+    bi: 2926 - tri: 126 - tetra: 2
+
+Number of polymorphic sites where there are no gaps :  96/3054
+
+Watterson's Theta            :  458.168
+Watterson's Theta (per site) :  0.0152926
+
+Min  pairwise-distance between strains :  0
+Max  pairwise-distance between strains :  110
+Mean pairwise-distance between strains :  45.7246
+Mean pairwise-distance per site (pi)   :  0.00152619
+
+Notes:
+   AA-- and --AA are distinct but the pairwise-distance between them is zero.
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+
+
+
+
+
+#2. time nice mafft --maxiterate 1000 global_subsample_and529s_785.fa > global_subsample_and529s_785.mafft_maxiters1000.afa 
+-------------------
+
+
+
+    
+
+
+
+
+
+
+#3. time nice mafft --6merpair --addfragments global_subsample_and529s_785.fa Wuhan-Hu-1.fa > global_subsample_and529s_785.mafft_addfrag_wref.afa
+-------------------
+
+This took 1 minute and produced an alignment of 29924
+
+  ════════════════════════════════════════════════════════════════════════════════
+  3SEQ -- Info Mode
+  ════════════════════════════════════════════════════════════════════════════════
+
+  WARNING: The file "3s.log" already exists.
+           Do you want to overwrite it? (Y/N) - YES
+
+  Number of sequences          :  786
+  Number of distinct sequences :  729
+  Number of comparisons        :  4.83736e+08
+
+  Original sequence length is 29924 nt.
+  Using 29924 positions, from 1 to 29924 inclusive.
+
+  Number of polymorphic sites is 3050. Using only polymorphic sites:
+      bi: 2920 - tri: 127 - tetra: 3
+
+  Number of polymorphic sites where there are no gaps :  96/3050
+
+  Watterson's Theta            :  457.48
+  Watterson's Theta (per site) :  0.0152881
+
+  Min  pairwise-distance between strains :  0
+  Max  pairwise-distance between strains :  111
+  Mean pairwise-distance between strains :  44.7748
+  Mean pairwise-distance per site (pi)   :  0.00149628
+
+  Notes:
+     AA-- and --AA are distinct but the pairwise-distance between them is zero.
+
+  ════════════════════════════════════════════════════════════════════════════════
+    
+
+
