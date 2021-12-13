@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Info Mode
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -i temp.afa
+
+Number of sequences          :  353
+Number of distinct sequences :  329
+Number of comparisons        :  4.36139e+07
+
+Original sequence length is 29911 nt.
+Using 29911 positions, from 1 to 29911 inclusive.
+
+Number of polymorphic sites is 1865. Using only polymorphic sites:
+    bi: 1803 - tri: 60 - tetra: 2
+
+Number of polymorphic sites where there are no gaps :  1081/1865
+
+Watterson's Theta            :  317.908
+Watterson's Theta (per site) :  0.0106285
+
+Min  pairwise-distance between strains :  0
+Max  pairwise-distance between strains :  112
+Mean pairwise-distance between strains :  47.8764
+Mean pairwise-distance per site (pi)   :  0.00160063
+
+Notes:
+   AA-- and --AA are distinct but the pairwise-distance between them is zero.
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2021/12/09 14:38:06 ║
+                                            ╚══════════════════════════════════╝
+

@@ -1,0 +1,58 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -f ../BFR_A.afa -t0.90 -id run008_t0p90
+
+Using 353 sequences as parents.
+Using 353 sequences as children.
+
+Need a p-value of 2.06356e-08 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "run008_t0p90.3s.rec.csv".
+
+Long recombinants will be recorded to the file "run008_t0p90.3s.longRec".
+
+Searching for P-value table file...
+
+Loading P-value table from file
+"/home/maciek/PVALUETABLES/PVT_3SEQ_DELTA_300"
+  Table size : 300 * 300 * 300
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      000:18:50       2.426331e-08                3
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              4.36139e+07
+Number of p-values computed exactly :   4.36139e+07
+Number of p-values approximated (HS) :  0
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	3
+Number of distinct recombinant sequences :                     	3
+Number of distinct recombinant sequences at least 100nt long : 	3
+Longest of short recombinant segments :                        	9741nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 0.652926
+                                                        p = 6.529e-01
+                                            Uncorrected p = 2.42633e-08
+                                            Bonferroni  p = 1.05822
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "run008_t0p90.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2021/12/09 22:40:23 ║
+                                            ╚══════════════════════════════════╝
+
